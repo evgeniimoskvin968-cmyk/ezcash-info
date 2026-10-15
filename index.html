@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ezcash — информационный проект об игровых автоматах, игровых механиках, RTP и вероятностях.">
+  <meta name="robots" content="index, follow">
+  <title>Ezcash — обзоры и игровые механики</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #202b3c;
+      background: #f5f7fb;
+      line-height: 1.65;
+    }
+    header {
+      background: #fff;
+      border-bottom: 1px solid #e7eaf0;
+      padding: 16px 20px;
+    }
+    .nav {
+      max-width: 1000px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 25px;
+      font-weight: 800;
+      color: #1768d2;
+      text-decoration: none;
+    }
+    nav { display: flex; gap: 16px; flex-wrap: wrap; }
+    nav a { color: #46546a; text-decoration: none; font-size: 14px; }
+    main { max-width: 1000px; margin: auto; padding: 24px 18px; }
+    .hero {
+      background: #fff;
+      padding: 32px 24px;
+      border: 1px solid #e7eaf0;
+      border-radius: 18px;
+      margin-bottom: 24px;
+    }
+    .tag {
+      color: #1768d2;
+      font-weight: bold;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+    h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.2; margin: 10px 0; }
+    h2 { font-size: 25px; margin-top: 0; }
+    .muted { color: #647187; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+      gap: 18px;
+      margin: 18px 0 30px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #e7eaf0;
+      border-radius: 14px;
+      padding: 22px;
+    }
+    .card h3 { margin-top: 0; }
+    .label { color: #1768d2; font-size: 13px; font-weight: bold; }
+    section { margin-bottom: 28px; }
+    footer {
+      background: #fff;
+      border-top: 1px solid #e7eaf0;
+      padding: 24px 18px;
+      text-align: center;
+      color: #647187;
+      font-size: 13px;
+    }
+    a { overflow-wrap: anywhere; }
+    @media (max-width: 480px) {
+      header { padding: 14px; }
+      nav { gap: 10px; }
+      nav a { font-size: 13px; }
+      main { padding: 16px 12px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a class="logo" href="#home">Ezcash</a>
+      <nav aria-label="Главное меню">
+        <a href="#articles">Обзоры</a>
+        <a href="#rtp">Что такое RTP</a>
+        <a href="#about">О проекте</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="tag">Информационный проект</div>
+      <h1>Игровые автоматы: устройство и механики</h1>
+      <p class="muted">
+        Разбираемся, как устроены игровые автоматы,
+        что означают игровые термины и как работают
+        вероятности случайных событий.
+      </p>
+    </section>
+
+    <section id="articles">
+      <h2>Статьи и обзоры</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="label">Основы</div>
+          <h3>Как устроены игровые автоматы</h3>
+          <p>Знакомство с барабанами, символами,
+          игровыми раундами и случайными результатами.</p>
+        </article>
+        <article class="card" id="rtp">
+          <div class="label">Термины</div>
+          <h3>Что означает RTP</h3>
+          <p>RTP — теоретический процент возврата,
+          рассчитанный на основе большого числа
+          игровых раундов. Это не прогноз результата
+          отдельного игрока.</p>
+        </article>
+        <article class="card">
+          <div class="label">Вероятности</div>
+          <h3>Случайность и результаты</h3>
+          <p>Почему предыдущие результаты сами по себе
+          не позволяют предсказать следующий случайный
+          результат.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card" id="about">
+      <h2>О проекте Ezcash</h2>
+      <p>
+        Здесь собраны образовательные материалы об игровых
+        механиках, терминах и вероятностях. Информация
+        предназначена для ознакомления и не является
+        финансовой рекомендацией.
+      </p>
+      <p>
+        Азартные игры связаны с риском финансовых потерь.
+        Теоретические показатели не гарантируют выигрыш.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Ezcash — информационный проект</p>
+    <p>Материалы сайта предназначены для совершеннолетней аудитории.</p>
+  </footer>
+</body>
+</html>
