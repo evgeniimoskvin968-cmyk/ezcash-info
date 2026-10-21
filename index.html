@@ -1,205 +1,492 @@
 
 <!DOCTYPE html>
 <html lang="ru">
-<head> 
-
-<!-- Название сайта для Google -->
-<title>Ezcash Актуальное зеркало</title>
-
-<meta property="og:site_name" content="Ezcash Актуальное зеркало">
-<meta property="og:title" content="Ezcash Актуальное зеркало">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Ezcash Актуальное зеркало",
-  "alternateName": "Ezcash",
-  "url": "https://ezcash-info.ru/"
-}
-</script>
-
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PWL921WGQN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-PWL921WGQN');
-</script>
-
-  <link rel="icon" type="image/png" href="/favicon.png">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Информация об EZCASH, обзор сайта, актуальные сведения и полезные материалы для посетителей.">
+
+  <title>Casino Актуальная ссылка</title>
+  <meta name="description" content="Информационный портал об игровых автоматах, игровых механиках, RTP и вероятностях.">
   <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ezcash-info.ru/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta name="theme-color" content="#101010">
+
+  <meta property="og:site_name" content="Casino Актуальная ссылка">
+  <meta property="og:title" content="Casino Актуальная ссылка">
+  <meta property="og:description" content="Информация об игровых механиках и вероятностях.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ezcash-info.ru/">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Casino Актуальная ссылка",
+    "alternateName": "Casino",
+    "url": "https://ezcash-info.ru/"
+  }
+  </script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PWL921WGQN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PWL921WGQN');
+  </script>
+
   <style>
-    * { box-sizing: border-box; }
+    :root {
+      --bg: #101010;
+      --panel: #191919;
+      --yellow: #ffd400;
+      --text: #f7f7f7;
+      --muted: #b5b5b5;
+      --border: #303030;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      color: #202b3c;
-      background: #f5f7fb;
-      line-height: 1.65;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
     }
-    header {
-      background: #fff;
-      border-bottom: 1px solid #e7eaf0;
-      padding: 16px 20px;
+
+    a {
+      overflow-wrap: anywhere;
     }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(16, 16, 16, .97);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+    }
+
     .nav {
-      max-width: 1000px;
+      max-width: 1100px;
+      min-height: 76px;
       margin: auto;
+      padding: 14px 22px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 12px;
-      flex-wrap: wrap;
+      gap: 18px;
     }
-    .logo {
-      font-size: 25px;
-      font-weight: 800;
-      color: #1768d2;
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      color: var(--text);
       text-decoration: none;
+      font-weight: 800;
+      font-size: 19px;
+      line-height: 1.3;
     }
-    nav { display: flex; gap: 16px; flex-wrap: wrap; }
-    nav a { color: #46546a; text-decoration: none; font-size: 14px; }
-    main { max-width: 1000px; margin: auto; padding: 24px 18px; }
+
+    .brand-icon {
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+      width: 43px;
+      height: 43px;
+      border-radius: 12px;
+      background: var(--yellow);
+      color: #101010;
+      font-size: 25px;
+      font-weight: 900;
+    }
+
+    .brand span:last-child {
+      max-width: 245px;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-size: 14px;
+      text-decoration: none;
+      transition: color .2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--yellow);
+    }
+
+    .container {
+      width: min(100% - 36px, 1000px);
+      margin: auto;
+    }
+
     .hero {
-      background: #fff;
-      padding: 32px 24px;
-      border: 1px solid #e7eaf0;
-      border-radius: 18px;
-      margin-bottom: 24px;
+      position: relative;
+      overflow: hidden;
+      margin: 34px 0;
+      padding: 48px 38px;
+      background:
+        radial-gradient(ellipse at 100% 0%, #403600 0%, transparent 45%),
+        linear-gradient(145deg, #202020, #151515);
+      border: 1px solid #3a351b;
+      border-radius: 22px;
     }
+
     .tag {
-      color: #1768d2;
-      font-weight: bold;
-      font-size: 13px;
+      display: inline-block;
+      padding: 6px 12px;
+      border: 1px solid #655400;
+      border-radius: 30px;
+      color: var(--yellow);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1px;
       text-transform: uppercase;
     }
-    h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.2; margin: 10px 0; }
-    h2 { font-size: 25px; margin-top: 0; }
-    .muted { color: #647187; }
+
+    h1 {
+      max-width: 760px;
+      margin: 20px 0 16px;
+      font-size: clamp(32px, 6vw, 54px);
+      line-height: 1.12;
+      letter-spacing: -1.5px;
+    }
+
+    h1 span {
+      color: var(--yellow);
+    }
+
+    .hero p {
+      max-width: 650px;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 54px;
+      margin-top: 18px;
+      padding: 14px 26px;
+      border: 0;
+      border-radius: 11px;
+      background: var(--yellow);
+      color: #101010;
+      font-size: 16px;
+      font-weight: 800;
+      text-align: center;
+      text-decoration: none;
+      transition: transform .2s, background .2s;
+    }
+
+    .button:hover {
+      background: #ffe34d;
+      transform: translateY(-2px);
+    }
+
+    .section {
+      margin: 46px 0;
+    }
+
+    .section-heading {
+      margin-bottom: 8px;
+      font-size: clamp(25px, 4vw, 34px);
+      line-height: 1.25;
+    }
+
+    .section-description {
+      margin-top: 0;
+      color: var(--muted);
+    }
+
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 18px;
-      margin: 18px 0 30px;
+      margin-top: 24px;
     }
+
     .card {
-      background: #fff;
-      border: 1px solid #e7eaf0;
-      border-radius: 14px;
-      padding: 22px;
+      min-width: 0;
+      padding: 24px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      transition: border-color .2s, transform .2s;
     }
-    .card h3 { margin-top: 0; }
-    .label { color: #1768d2; font-size: 13px; font-weight: bold; }
-    section { margin-bottom: 28px; }
-    footer {
-      background: #fff;
-      border-top: 1px solid #e7eaf0;
-      padding: 24px 18px;
-      text-align: center;
-      color: #647187;
+
+    .card:hover {
+      border-color: #8a7410;
+      transform: translateY(-3px);
+    }
+
+    .card-icon {
+      display: grid;
+      place-items: center;
+      width: 45px;
+      height: 45px;
+      margin-bottom: 16px;
+      border-radius: 12px;
+      background: #332d0a;
+      color: var(--yellow);
+      font-size: 23px;
+    }
+
+    .label {
+      color: var(--yellow);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+
+    .card h3 {
+      margin: 9px 0;
+      font-size: 20px;
+      line-height: 1.35;
+    }
+
+    .card p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .info {
+      padding: 28px;
+      background: #191919;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--yellow);
+      border-radius: 14px;
+    }
+
+    .info h2 {
+      margin-top: 0;
+    }
+
+    .info p {
+      color: var(--muted);
+    }
+
+    .notice {
+      margin: 30px 0;
+      padding: 16px;
+      background: #1b1a14;
+      border-radius: 10px;
+      color: #d5cc9b;
       font-size: 13px;
     }
-    a { overflow-wrap: anywhere; }
-    @media (max-width: 480px) {
-      header { padding: 14px; }
-      nav { gap: 10px; }
-      nav a { font-size: 13px; }
-      main { padding: 16px 12px; }
-      .hero { padding: 24px 18px; }
+
+    footer {
+      margin-top: 55px;
+      padding: 28px 18px;
+      border-top: 1px solid var(--border);
+      color: #929292;
+      text-align: center;
+      font-size: 13px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 700px) {
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 14px;
+        padding: 14px 18px;
+      }
+
+      .brand {
+        font-size: 17px;
+      }
+
+      .nav-links {
+        width: 100%;
+        gap: 18px;
+      }
+
+      .nav-links a {
+        font-size: 13px;
+      }
+
+      .container {
+        width: calc(100% - 28px);
+      }
+
+      .hero {
+        margin: 20px 0 30px;
+        padding: 30px 22px;
+        border-radius: 17px;
+      }
+
+      h1 {
+        letter-spacing: -.8px;
+      }
+
+      .hero p {
+        font-size: 15px;
+      }
+
+      .button {
+        width: 100%;
+        min-height: 54px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+        gap: 13px;
+      }
+
+      .card {
+        padding: 21px;
+      }
+
+      .section {
+        margin: 35px 0;
+      }
+
+      .info {
+        padding: 22px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *, *::before, *::after {
+        transition: none !important;
+      }
     }
   </style>
 </head>
+
 <body>
-  <header>
+  <header class="header">
     <div class="nav">
-      <a class="logo" href="#home" style="display:inline-flex;align-items:center;gap:10px;">
-  <img src="/photo_2026-10-16_16-26-44.jpg" alt="Ezcash" style="width:40px;height:40px;object-fit:cover;border-radius:50%;">
-  <span>EZCASH CASINO — официальный сайт</span>
-</a>
-      <nav aria-label="Главное меню">
-        <a href="#articles">Обзоры</a>
+      <a class="brand" href="#home" aria-label="Casino Актуальная ссылка — главная">
+        <span class="brand-icon" aria-hidden="true">C</span>
+        <span>Casino Актуальная ссылка</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Главное меню">
+        <a href="#articles">Статьи</a>
         <a href="#rtp">Что такое RTP</a>
         <a href="#about">О проекте</a>
       </nav>
     </div>
   </header>
 
-  <main id="home">
+  <main class="container" id="home">
     <section class="hero">
-<section style="text-align:center; margin:24px 0;">
-  <a href="https://ezc2.sh/r/cashlink"
-     style="display:inline-block;
-            background:#2563eb;
-            color:#ffffff;
-            padding:15px 32px;
-            border-radius:10px;
-            font-size:17px;
-            font-weight:bold;
-            text-decoration:none;">
-    Перейти на сайт
-  </a>
-</section>
+      <div class="tag">Информационный портал</div>
 
-      <div class="tag">Информационный проект</div>
-      <h1>Игровые автоматы: устройство и механики</h1>
-      <p class="muted">
-        Разбираемся, как устроены игровые автоматы,
-        что означают игровые термины и как работают
-        вероятности случайных событий.
+      <h1>
+        Игровые механики<br>
+        <span>простым языком</span>
+      </h1>
+
+      <p>
+        Разбираем игровые термины, принципы работы
+        случайных результатов и математические вероятности.
+        Понятные материалы без сложных объяснений.
       </p>
+
+      <a class="button"
+         href="https://ezc2.sh/r/cashlink"
+         target="_blank"
+         rel="noopener noreferrer">
+        Перейти на сайт <span aria-hidden="true">&nbsp;→</span>
+      </a>
     </section>
 
-    <section id="articles">
-      <h2>Статьи и обзоры</h2>
+    <section class="section" id="articles">
+      <h2 class="section-heading">Статьи и материалы</h2>
+      <p class="section-description">
+        Основные понятия и ответы на популярные вопросы.
+      </p>
+
       <div class="grid">
         <article class="card">
+          <div class="card-icon" aria-hidden="true">▦</div>
           <div class="label">Основы</div>
           <h3>Как устроены игровые автоматы</h3>
-          <p>Знакомство с барабанами, символами,
-          игровыми раундами и случайными результатами.</p>
+          <p>
+            Знакомство с символами, барабанами,
+            игровыми раундами и случайными результатами.
+          </p>
         </article>
+
         <article class="card" id="rtp">
+          <div class="card-icon" aria-hidden="true">%</div>
           <div class="label">Термины</div>
           <h3>Что означает RTP</h3>
-          <p>RTP — теоретический процент возврата,
-          рассчитанный на основе большого числа
-          игровых раундов. Это не прогноз результата
-          отдельного игрока.</p>
+          <p>
+            Что такое теоретический процент возврата
+            и почему он не предсказывает результат
+            отдельного игрового раунда.
+          </p>
         </article>
+
         <article class="card">
+          <div class="card-icon" aria-hidden="true">↗</div>
           <div class="label">Вероятности</div>
           <h3>Случайность и результаты</h3>
-          <p>Почему предыдущие результаты сами по себе
-          не позволяют предсказать следующий случайный
-          результат.</p>
+          <p>
+            Почему предыдущие результаты не позволяют
+            надёжно предсказать следующий случайный исход.
+          </p>
         </article>
       </div>
     </section>
 
-    <section class="card" id="about">
-      <h2>О проекте Ezcash</h2>
+    <section class="section info" id="about">
+      <h2>О проекте</h2>
       <p>
-        Официальный сайт Ezcash casino — лучшего казино 2025 года. Изи кеш относительно новое казино в СНГ пространстве, но уже обладает лицензией Curacao. Выделяется удобным интерфейсом, качественным сервисом для игроков и отзывчивой поддержкой.
-
-В Ezcash casino представлено свыше 1000 современных игровых автоматов. От популярных во всем мире провайдеров , таких как Play’n Go, Push gaming, Pragmatic Play. Казино постоянно развивается и обновляется предлагая игрокам новые интерактивы на сайте. Бонусы за регистрацию, бесплатные вращения, кэшбек и турниры — это лишь малая часть того, что делает игру на сайте EzCash увлекательной и выгодной.
-
-Ezcash казино предоставляет игрокам удобные способы пополнения и вывода денег. Даже новичок сможет легко управлять своими деньгами благодаря большому выбору платежных методов на официальном сайте. Банковские карты, электронные и крипто кошельки, мобильные платежи — выбор за игроком.
+        «Casino Актуальная ссылка» — информационный проект,
+        посвящённый игровым терминам, математическим
+        вероятностям и принципам работы игровых механик.
       </p>
       <p>
-        Азартные игры связаны с риском финансовых потерь.
-        Теоретические показатели не гарантируют выигрыш.
+        Материалы носят ознакомительный характер.
+        Теоретические показатели не гарантируют выигрыш,
+        а участие в азартных играх связано с риском
+        финансовых потерь.
       </p>
     </section>
+
+    <div class="notice">
+      Информация предназначена для совершеннолетней аудитории.
+      Азартные игры могут привести к финансовым потерям.
+      Соблюдайте законы своей страны.
+    </div>
   </main>
 
   <footer>
-    <p>© 2026 Ezcash — информационный проект</p>
-    <p>Материалы сайта предназначены для совершеннолетней аудитории.</p>
+    <p>© 2026 Casino Актуальная ссылка</p>
+    <p>Информационный проект</p>
   </footer>
 </body>
 </html>
